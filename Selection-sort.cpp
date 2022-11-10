@@ -1,32 +1,47 @@
 #include <iostream>
 using namespace std;
-void selectionSort(int input[], int n) 
+
+void selectSort(int *input, int n)
 {
-  for(int i = 0; i < n-1; i++ ) 
+  int i = 0, j = 0;
+  for(i = 0; i < n-1; i++)
   {
-    // Find min element in the array
-    int min = input[i], minIndex = i;
-     for(int j = i+1; j < n; j++) 
+    int min = input[i], minindex = i;
+    for(j = i+1; j < n ; j++)
     {
-      if(input[j] < min) 
+      if(input[j] < min)
       {
-      min = input[j];
-      minIndex = j;
+        min = input[j];
+        minindex = j;
       }
     }
-    // Swap
+    //swap
     int temp = input[i];
-    input[i] = input[minIndex];
-    input[minIndex] = temp;
+    input[i] = min;
+    input[minindex] = temp;
   }
 }
-int main() 
+
+void printArray(int *input, int n)
 {
-int input[] = {3, 1, 6, 9, 0, 4};
-selectionSort(input, 6);
-for(int i = 0; i < 6; i++) 
-{
-  cout << input[i] << " ";
+  for(int i = 0; i < n; i++)
+  {
+    cout << input[i]<<" ";
+  }
 }
-  cout << endl;
+
+
+int main()
+{
+  int input[100];
+  int n; // size of input array
+  cout << "Enter the size of the input array: ";
+  cin >> n;
+  for(int i = 0; i < n; i++)
+  {
+    cin>>input[i];
+  }
+
+  selectSort(input, n);
+  printArray(input, n);
 }
