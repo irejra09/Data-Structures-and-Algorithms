@@ -25,7 +25,7 @@ void reverseString(char input[]) {
 
 int main() {
 	char input[100];
-	cout<<"Enter the input string: ";
+	cout<<"Enter the string you want to reverese: ";
 	cin.getline(input, 100);
 	
 	reverseString(input);
