@@ -1,3 +1,2 @@
-#This folder is about the various pattern questions that we see in the C++.
-#I will be taking a pattern problem and will be solving it and posting the 
-#solution of the problem in this folder.
+-->This folder is about the various pattern questions that we see in the C++.<br>
+-->I will be taking a pattern problem and will be solving it and posting the solution of the problem in this folder.
