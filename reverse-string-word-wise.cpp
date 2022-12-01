@@ -6,7 +6,8 @@ Then the string after reverse will be : coder heavy a am I. */
 using namespace std;
 
 #include <iostream>
-int length(char input[]) {
+int length(char input[]) 
+{
   int count = 0;
   for (int i = 0; input[i] != '\0'; i++) {
     count++;
