@@ -24,8 +24,6 @@ int binarySearch(int *input, int n, int val)
 #include <iostream>
 using namespace std;
 
-#include "solution.h"
-
 int main()
 {
 
