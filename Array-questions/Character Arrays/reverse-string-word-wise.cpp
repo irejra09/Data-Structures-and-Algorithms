@@ -44,7 +44,7 @@ int main() {
     cout<<"Enter the string:";
     cin.getline(input, 1000);
     cout<<"Sending the string for reversing "<<endl;
-    cout<<"Here is your reversed string: ";
+    cout<<"Here is your reversed string : ";
     reverseStringWordWise(input);
     cout << input << endl;
 }

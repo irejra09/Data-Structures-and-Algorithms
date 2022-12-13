@@ -29,5 +29,5 @@ int main() {
 	cin.getline(input, 100);
 	
 	reverseString(input);
-	cout<<"The reversed string is:"<<input;
+	cout<<"The reversed string is: "<<input;
 }

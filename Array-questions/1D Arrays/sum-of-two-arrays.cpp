@@ -73,7 +73,7 @@ int main()
 
 		for (int i = 0; i < outsize; ++i)
 		{
-			cout << output[i] << " ";
+			cout <<output[i]<< " ";
 		}
 
 		delete[] input1;

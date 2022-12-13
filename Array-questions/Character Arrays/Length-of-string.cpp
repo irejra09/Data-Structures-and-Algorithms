@@ -13,7 +13,7 @@ int LengthS(char input[])
 int main()
 {
   char name[100];
-  cout<<"Enter the string :";
+  cout<<"Enter the string:";
   cin>>name;
   cout<<"The String is :"<<name<<endl;
   cout<<"Length of String is: "<<LengthS(name);

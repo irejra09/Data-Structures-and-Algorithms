@@ -24,7 +24,7 @@ int main()
   char c1,c2;
   cout<<"Enter the character to be replaced: ";
   cin>>c1;
-  cout<<"Enter the chracter with which you want to replace: ";
+  cout<<"Enter the chracter with which you want to replace : ";
   cin>>c2;
   replaceChar(str,c1,c2);
   cout<<"The string after charater replacement is: "<<str;

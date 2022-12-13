@@ -23,5 +23,5 @@ int main()
       return 0;
     }
   }
-  cout<<"Pallindrome";
+  cout<<"Pallindrome.";
 }

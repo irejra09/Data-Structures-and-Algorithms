@@ -1,4 +1,4 @@
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -26,4 +26,4 @@ int main()
     }
     cout<<"The sum of column "<<b+1<<" is "<<sum<<endl;
   }
-} */
+}

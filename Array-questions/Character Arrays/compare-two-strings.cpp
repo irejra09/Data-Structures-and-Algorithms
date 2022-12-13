@@ -12,11 +12,11 @@ int main()
   cin>>arr2;
   if(strcmp(arr1,arr2)==0)
   {
-    cout<<"Both the strings are equal."<<endl;
+    cout<<"Both the strings are equal"<<endl;
   }
   else
   {
-    cout<<"Both the strings are not equal."<<endl;
+    cout<<"Both the strings are not equal"<<endl;
   }
 
 }

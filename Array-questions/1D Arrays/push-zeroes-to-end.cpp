@@ -18,7 +18,7 @@ void pushZeroes(int input[], int n)
 int main()
 {
   int size;
-  cout<<"Enter the size of the array: ";
+  cout<<"Enter the size of the array:";
   cin>>size;
   int *input = new int[size];
   cout<<endl;
