@@ -7,8 +7,6 @@ The output is:
 4444
 4444
  */
-
-
 #include <iostream>
 using namespace std;
 int main()
