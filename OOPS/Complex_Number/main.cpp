@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 class Complex {
-    // Complete this class
     private:
     int real;
     int imaginary;
