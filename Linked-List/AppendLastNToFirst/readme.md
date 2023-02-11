@@ -4,6 +4,7 @@ linked list and returns the new head to the list.
 
 Sample Input 1 :
 1 2 3 4 5 -1
+
 3
 
 Sample Output 1 :
@@ -11,6 +12,7 @@ Sample Output 1 :
 
 Sample Input 2 :
 10 6 77 90 61 67 100 -1
+
 4
 
 Sample Output 2 :
