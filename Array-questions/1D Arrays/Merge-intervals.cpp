@@ -71,6 +71,5 @@ public:
         }
         answala.push_back(v);
         return answala;
-
     }
 };
